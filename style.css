@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(https://media.istockphoto.com/photos/red-old-matte-grunge-faded-adobe-plaster-texture-abstract-cement-picture-id1299674661?b=1&k=20&m=1299674661&s=170667a&w=0&h=TI7PCc8wsK7eaL7bLFwLQJ8w0b1uR5JiYubOSy9OaKk=);
+}
+#container{
+    display: flex;
+    height: 500px;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+    background-color:transparent;
+    margin: 5% 0% 0% 33%;
+    border-radius: 15px;
+    border: 5px solid rgb(121, 4, 4);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+.inputfields{
+    height: 40px;
+    width: 350px;
+    border: none;
+}
+.inputfields:focus{
+    background-color: #f6fac1;
+    border: 1px solid white;
+}
+button{
+    background-color: #fbc2c2;
+    height: 40px;
+    width: 200px;
+    border-radius: 40px;
+    border-width: 0;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+    color: red;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding: 0 25px;
+    transition: all 200ms;
+    align-self: center;
+}
+button:hover{
+    background-color: #f35d5d;
+    transform: scale(1.05);
+    color: white;
+}
+.error{
+    font-size: 0.8em;
+    margin-top: 0%;
+    margin-left: 3%;
+}

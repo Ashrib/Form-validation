@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <h1>Welcome!</h1>
+        <div id="form">
+            <input type="text" placeholder="Enter your First Name" maxlength="10" class="inputfields" id="fname"><span class="error" id="fnameError"></span><br>
+            <input type="text" placeholder="Enter your last Name" maxlength="10" class="inputfields" id="lname"><span class="error" id="lnameError"></span><br>
+            <input type="email" placeholder="Enter your Email" maxlength="35" class="inputfields" id="email"><span class="error" id="emailError"></span><br>
+            <input type="password" placeholder="Enter your Password" maxlength="15" class="inputfields" id="password"><span class="error" id="passwordError"></span><br>
+            <br>
+           <button onClick="submit()">Submit</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
